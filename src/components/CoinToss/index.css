@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+}
+
+.caption {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.coign-image {
+  height: 120px;
+  width: 120px;
+}
+
+.button-class {
+  background-color: #e2a139;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #a35200;
+  font-family: 'Roboto';
+}
+
+.result-div {
+  display: flex;
+}
+
+.result {
+  font-family: 'Roboto';
+  color: #475569;
+  padding-left: 5px;
+  padding-right: 5px;
+}
